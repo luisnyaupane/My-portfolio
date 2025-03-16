@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8vmin;
+    flex-direction: column;
+    background-color: #e0e1dd;
+}
+.border{
+
+border:  1px solid black;
+border-radius: 50%;
+}
+.border:hover{
+    border:  3px inset #354f52;
+ 
+}
+.all{
+    background-color:#adb5bd ;
+    height: 80vmin;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80vmin;
+}
+.navbar{
+    height: 7vmin;
+    background-color:#495057 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vmin;
+    color: #936639;
+}
+.img{
+    height: 40vmin;
+  width: 100%;
+        display: flex;
+        object-fit: fill;
+    
+    align-items: center;
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    justify-content:space-evenly;
+     padding: 2vmin; 
+    /* img {
+        display: block;
+    } */
+    
+}
+img
+{
+
+   width: 30vmin; 
+  height: 30vmin; 
+  border-radius: 50%;
+  background-color: #936639;
+  display: block;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+    color: #354f52;
+    padding: 0;
+    
+}
+.countBox
+{
+    border: transparent;
+   
+    width:4vmin;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 2vmin;
+    height: 100%;
+    border:  1px solid black;
+    background: #495057;
+   
+color: #ced4da;
+}
+
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vmin;
+}
+.resetButton{
+background-color:#343a40;
+color: #ced4da;
+
+}
+
+.secContener{
+    text-align: center;
+    background-color: #1b263b;
+    width: 90%;
+    height: 10vmin;
+    position: absolute;
+    color: #e4e6e9;
+    font-size: large;
+    font-family: 'Verdana', sans-serif;
+    padding: 1vmin;
+    justify-content: center;
+   
+}
+.newGameBtn{
+background-color: #778da9;
+  
+    border-radius: 0.19rem;
+    color: #0d1b2a;
+   
+
+
+}
+.win{
+    display: none;
+}
