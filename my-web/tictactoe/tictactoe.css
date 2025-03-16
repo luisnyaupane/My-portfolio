@@ -1,0 +1,90 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8vmin;
+    flex-direction: column;
+    background-color: #e0e1dd;
+}
+.heading{
+    font-size: 3vmin;
+    color: #ced4da;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    
+}
+.contenar{
+ 
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     padding:5vmin; 
+     padding-top: 2vmin; 
+background-color:#1b263b;
+/* text-align: center; */
+}
+.box1{
+    color: aqua;
+}
+.all{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    flex-wrap: wrap;
+    gap: 1vmin;
+}
+.box{
+height: 18vmin;
+width: 18vmin;
+border-radius: 1rem;
+border: none;
+box-shadow: 0 0 1rem black;
+background-color: #778da9;
+font-size: 8vmin;
+color: #e0e1dd;
+
+}
+.reset{
+    height: 5vmin;
+    width: 10vmin;
+    font-size: 3vmin;
+    padding-top: 5vmin;
+  
+   
+}
+.resetbutton
+{
+    background-color: #778da9;
+    width: 10vmin;
+    border-radius: 0.19rem;
+    color: #0d1b2a;
+}
+.secContener{
+    text-align: center;
+    background-color: #1b263b;
+    width: 70vh;
+    position: absolute;
+    color: #e4e6e9;
+    font-size: large;
+    font-family: 'Verdana', sans-serif;
+    padding-bottom: 1vmin;
+   
+}
+.newGameBtn{
+background-color: #778da9;
+  
+    border-radius: 0.19rem;
+    color: #0d1b2a;
+   
+
+
+}
+.win{
+    display: none;
+}
