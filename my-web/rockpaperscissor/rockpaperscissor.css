@@ -125,6 +125,49 @@ background-color: #778da9;
 
 
 }
+.goToMain{
+    background-color: #778da9;
+      
+        border-radius: 0.19rem;
+        color: #0d1b2a;
+       height: 5vw;
+       width: 10vw;
+       animation: rounding 4s  infinite ease-in-out;
+    
+    }
+    @keyframes rounding {
+        0% {
+            background: linear-gradient(to right, #33415C, #5C677D, #7D8D9C, #A0B0C1);
+        }
+        11.11% {
+            background: linear-gradient(to right, #5C677D, #7D8D9C, #A0B0C1, #33415C);
+        }
+        22.22% {
+            background: linear-gradient(to right, #7D8D9C, #A0B0C1, #33415C, #5C677D);
+        }
+        33.33% {
+            background: linear-gradient(to right, #A0B0C1, #33415C, #5C677D, #7D8D9C);
+        }
+        44.44% {
+            background: linear-gradient(to right, #5C677D, #7D8D9C, #A0B0C1, #33415C);
+        }
+        55.55% {
+            background: linear-gradient(to right, #7D8D9C, #A0B0C1, #33415C, #5C677D);
+        }
+        66.66% {
+            background: linear-gradient(to right, #A0B0C1, #33415C, #5C677D, #7D8D9C);
+        }
+        77.77% {
+            background: linear-gradient(to right, #5C677D, #7D8D9C, #A0B0C1, #33415C);
+        }
+        88.88% {
+            background: linear-gradient(to right, #7D8D9C, #A0B0C1, #33415C, #5C677D);
+        }
+        100% {
+            background: linear-gradient(to right, #33415C, #5C677D, #7D8D9C, #A0B0C1);
+        }
+      }
+
 .win{
     display: none;
 }

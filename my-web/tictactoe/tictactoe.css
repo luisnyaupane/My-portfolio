@@ -48,14 +48,57 @@ box-shadow: 0 0 1rem black;
 background-color: #778da9;
 font-size: 8vmin;
 color: #e0e1dd;
-
+cursor: pointer;
 }
+.goToMain{
+    background-color: #778da9;
+      
+        border-radius: 0.19rem;
+        color: #0d1b2a;
+       height: 4vw;
+       width: 10vw;
+       animation: rounding 4s  infinite ease-in-out;
+      cursor: pointer;
+    
+    }
+    @keyframes rounding {
+        0% {
+            background: linear-gradient(to right, #33415C, #5C677D, #7D8D9C, #A0B0C1);
+        }
+        11.11% {
+            background: linear-gradient(to right, #5C677D, #7D8D9C, #A0B0C1, #33415C);
+        }
+        22.22% {
+            background: linear-gradient(to right, #7D8D9C, #A0B0C1, #33415C, #5C677D);
+        }
+        33.33% {
+            background: linear-gradient(to right, #A0B0C1, #33415C, #5C677D, #7D8D9C);
+        }
+        44.44% {
+            background: linear-gradient(to right, #5C677D, #7D8D9C, #A0B0C1, #33415C);
+        }
+        55.55% {
+            background: linear-gradient(to right, #7D8D9C, #A0B0C1, #33415C, #5C677D);
+        }
+        66.66% {
+            background: linear-gradient(to right, #A0B0C1, #33415C, #5C677D, #7D8D9C);
+        }
+        77.77% {
+            background: linear-gradient(to right, #5C677D, #7D8D9C, #A0B0C1, #33415C);
+        }
+        88.88% {
+            background: linear-gradient(to right, #7D8D9C, #A0B0C1, #33415C, #5C677D);
+        }
+        100% {
+            background: linear-gradient(to right, #33415C, #5C677D, #7D8D9C, #A0B0C1);
+        }
+      }
 .reset{
     height: 5vmin;
     width: 10vmin;
     font-size: 3vmin;
     padding-top: 5vmin;
-  
+  padding: 2vmin;
    
 }
 .resetbutton
@@ -64,6 +107,7 @@ color: #e0e1dd;
     width: 10vmin;
     border-radius: 0.19rem;
     color: #0d1b2a;
+    cursor: pointer;
 }
 .secContener{
     text-align: center;
